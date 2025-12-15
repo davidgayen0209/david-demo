@@ -7,6 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DavidApplication {
    public void details(String name){
 	   System.out.println("name ="+ name);
+	   if(name.equals("David")){
+		   System.out.println("name matched congratulation");
+	   }
    }
 	public static void main(String[] args) {
 		SpringApplication.run(DavidApplication.class, args);
