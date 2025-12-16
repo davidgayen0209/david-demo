@@ -11,6 +11,10 @@ public class DavidApplication {
 		   System.out.println("name matched congratulation");
 	   }
    }
+
+	public void addMethod(){
+		System.out.println("new method added");
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(DavidApplication.class, args);
 
