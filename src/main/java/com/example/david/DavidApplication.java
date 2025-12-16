@@ -1,13 +1,13 @@
 package com.example.david;
 
+import com.example.david.entity.Constant;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class DavidApplication {
    public void details(String name){
-	   System.out.println("name ="+ name);
-	   if(name.equals("David")){
+	   if(name.equals(Constant.NAME_TYPE)){
 		   System.out.println("name matched congratulation");
 	   }
    }
